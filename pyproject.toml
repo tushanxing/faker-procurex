@@ -1,0 +1,19 @@
+[project]
+name = "faker-procurex"
+version = "0.0.1"
+description = "The current project provides fake data for procurement projects, and developers assume no responsibility for the generated data."
+authors = [
+    {name = "tushanxing", email = "tushanxing1995@gmail.com"},
+]
+dependencies = ["faker>=37.1.0"]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
