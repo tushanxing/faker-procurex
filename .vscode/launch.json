@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run Module",
+            "type": "python",
+            "request": "launch",
+            // 移除 "program" 字段，改为使用 "module"
+            // "program": "${workspaceFolder}/path/to/your/python", 这行需要移除
+            "module": "faker_procurex.providers.${relativeFileDirname}.${fileBasenameNoExtension}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {"PYTHONPATH": "${workspaceFolder}${pathSeparator}${env:PYTHONPATH}"},
+        }
+    ]
+}
