@@ -1,4 +1,3 @@
 {
-    "Codegeex.RepoIndex": true,
-    "python.envFile": "${workspaceFolder}/dev.env"
+    "Codegeex.RepoIndex": true
 }

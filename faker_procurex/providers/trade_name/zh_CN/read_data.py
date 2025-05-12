@@ -4,6 +4,7 @@ import asyncio
 import aiofiles
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor
+from . import timer_decorator, profile
 
 
 # 获取当前脚本所在的目录
